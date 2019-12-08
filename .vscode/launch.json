@@ -12,7 +12,8 @@
       "program": "${workspaceFolder}\\index.ts",
       "preLaunchTask": "build",
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/dist/**/*.js"]
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
